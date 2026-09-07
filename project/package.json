@@ -1,0 +1,15 @@
+{
+  "name": "@norwegian-geo/project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Norwegian Geo — Aurii project package",
+  "dependencies": {
+    "@aurii/core": "0.3.0",
+    "@aurii/db": "0.1.0",
+    "@aurii/studio": "0.1.0"
+  },
+  "scripts": {
+    "test": "bun test __tests__ core/historical/resolve-lineage.test.ts"
+  }
+}
